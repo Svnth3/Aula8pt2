@@ -94,8 +94,10 @@ try:
     plt.subplots(2,2, figsize=(18, 6))
     
     plt.subplot(2,2,1)
-    
+
     plt.boxplot(array_roubo_carros, vert=False, showmeans=True)
+    plt.suptitle('Analise')
+    plt.title('Boxplot da distribuição')
 
     # plt.boxplot(array_roubo_carros, vert=False, showmeans=True)
 
